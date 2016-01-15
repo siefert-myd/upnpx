@@ -187,6 +187,186 @@
 		15C44F47132C45B60013D453 /* SoapActionsRenderingControl1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F39132C45B60013D453 /* SoapActionsRenderingControl1.h */; };
 		15C44F48132C45B60013D453 /* UPnPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F3A132C45B60013D453 /* UPnPManager.h */; };
 		7DCA8D9F1B25A7D700946349 /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCA8D9E1B25A7D700946349 /* OrderedDictionary.h */; };
+		F62E25E51C486C9C0011E3EA /* df_upnpx.h in Headers */ = {isa = PBXBuildFile; fileRef = F62E25E41C486C9C0011E3EA /* df_upnpx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E25EA1C486CCF0011E3EA /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DAF132C300A0013D453 /* tools.cpp */; };
+		F62E25EB1C486CCF0011E3EA /* BasicHTTPServer_ObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15C44D93132C30000013D453 /* BasicHTTPServer_ObjC.mm */; };
+		F62E25EC1C486CCF0011E3EA /* basichttpserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44D94132C30000013D453 /* basichttpserver.cpp */; };
+		F62E25ED1C486CCF0011E3EA /* httpsession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44D96132C30000013D453 /* httpsession.cpp */; };
+		F62E25EE1C486CCF0011E3EA /* SocketServer_ObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15C44D99132C30000013D453 /* SocketServer_ObjC.mm */; };
+		F62E25EF1C486CCF0011E3EA /* socketserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44D9A132C30000013D453 /* socketserver.cpp */; };
+		F62E25F01C486CCF0011E3EA /* socketserverconnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44D9C132C30000013D453 /* socketserverconnection.cpp */; };
+		F62E25F11C486CCF0011E3EA /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DB4132C302D0013D453 /* main.mm */; };
+		F62E25F21C486CCF0011E3EA /* ssdp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DB5132C302D0013D453 /* ssdp.cpp */; };
+		F62E25F31C486CCF0011E3EA /* SSDPDB_ObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DB8132C302D0013D453 /* SSDPDB_ObjC.mm */; };
+		F62E25F41C486CCF0011E3EA /* ssdpdb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DB9132C302D0013D453 /* ssdpdb.cpp */; };
+		F62E25F51C486CCF0011E3EA /* ssdpdbdevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DBB132C302D0013D453 /* ssdpdbdevice.cpp */; };
+		F62E25F61C486CCF0011E3EA /* ssdphttp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DBE132C302D0013D453 /* ssdphttp.cpp */; };
+		F62E25F71C486CCF0011E3EA /* ssdpmessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DC0132C302D0013D453 /* ssdpmessage.cpp */; };
+		F62E25F81C486CCF0011E3EA /* ssdpmsearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DC2132C302D0013D453 /* ssdpmsearch.cpp */; };
+		F62E25F91C486CD00011E3EA /* ssdpnotify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DC4132C302D0013D453 /* ssdpnotify.cpp */; };
+		F62E25FA1C486CD00011E3EA /* ssdpnotifyalive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DC6132C302D0013D453 /* ssdpnotifyalive.cpp */; };
+		F62E25FB1C486CD00011E3EA /* ssdpnotifybye.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DC8132C302D0013D453 /* ssdpnotifybye.cpp */; };
+		F62E25FC1C486CD00011E3EA /* ssdpnotifyupdate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DCA132C302D0013D453 /* ssdpnotifyupdate.cpp */; };
+		F62E25FD1C486CD00011E3EA /* ssdpparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DCD132C302D0013D453 /* ssdpparser.cpp */; };
+		F62E25FE1C486CD00011E3EA /* ssdpsearchreq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DCF132C302D0013D453 /* ssdpsearchreq.cpp */; };
+		F62E25FF1C486CD00011E3EA /* ssdpsearchresp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DD1132C302D0013D453 /* ssdpsearchresp.cpp */; };
+		F62E26001C486CD00011E3EA /* ssdptools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DD3132C302D0013D453 /* ssdptools.cpp */; };
+		F62E26011C486CD00011E3EA /* upnp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DD5132C302D0013D453 /* upnp.cpp */; };
+		F62E26021C486CF30011E3EA /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1541026213D2762A000894ED /* OrderedDictionary.m */; };
+		F62E26031C486CF30011E3EA /* SoapActionsCallManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E941391E2C1003DE49F /* SoapActionsCallManagement1.m */; };
+		F62E26041C486CF30011E3EA /* SoapActionsConfigurationManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E951391E2C1003DE49F /* SoapActionsConfigurationManagement1.m */; };
+		F62E26051C486CF30011E3EA /* SoapActionsDeviceProtection1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E961391E2C1003DE49F /* SoapActionsDeviceProtection1.m */; };
+		F62E26061C486CF30011E3EA /* SoapActionsInputConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E971391E2C1003DE49F /* SoapActionsInputConfig1.m */; };
+		F62E26071C486CF30011E3EA /* SoapActionsMediaManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E981391E2C1003DE49F /* SoapActionsMediaManagement1.m */; };
+		F62E26081C486CF30011E3EA /* SoapActionsMessaging1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E991391E2C1003DE49F /* SoapActionsMessaging1.m */; };
+		F62E26091C486CF30011E3EA /* TelephonyClient1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E9A1391E2C1003DE49F /* TelephonyClient1Device.m */; };
+		F62E260A1C486CF30011E3EA /* TelephonyServer1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E9B1391E2C1003DE49F /* TelephonyServer1Device.m */; };
+		F62E260B1C486CF30011E3EA /* DigitalSecurityCamera1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584047139134E900A734E7 /* DigitalSecurityCamera1Device.m */; };
+		F62E260C1C486CF30011E3EA /* InternetGateway2Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584048139134E900A734E7 /* InternetGateway2Device.m */; };
+		F62E260D1C486CF30011E3EA /* LAN1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584049139134E900A734E7 /* LAN1Device.m */; };
+		F62E260E1C486CF30011E3EA /* SoapActionsDigitalSecurityCameraMotionImage1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1558404A139134E900A734E7 /* SoapActionsDigitalSecurityCameraMotionImage1.m */; };
+		F62E260F1C486CF30011E3EA /* SoapActionsDigitalSecurityCameraSettings1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1558404B139134E900A734E7 /* SoapActionsDigitalSecurityCameraSettings1.m */; };
+		F62E26101C486CF30011E3EA /* SoapActionsDigitalSecurityCameraStillImage1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1558404C139134E900A734E7 /* SoapActionsDigitalSecurityCameraStillImage1.m */; };
+		F62E26111C486CF30011E3EA /* SoapActionsLANHostConfigManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1558404D139134E900A734E7 /* SoapActionsLANHostConfigManagement1.m */; };
+		F62E26121C486CF30011E3EA /* SoapActionsLayer3Forwarding1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1558404E139134E900A734E7 /* SoapActionsLayer3Forwarding1.m */; };
+		F62E26131C486CF30011E3EA /* SoapActionsWANCableLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1558404F139134E900A734E7 /* SoapActionsWANCableLinkConfig1.m */; };
+		F62E26141C486CF30011E3EA /* SoapActionsWANCommonInterfaceConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584050139134E900A734E7 /* SoapActionsWANCommonInterfaceConfig1.m */; };
+		F62E26151C486CF30011E3EA /* SoapActionsWANDSLLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584051139134E900A734E7 /* SoapActionsWANDSLLinkConfig1.m */; };
+		F62E26161C486CF30011E3EA /* SoapActionsWANEthernetLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584052139134E900A734E7 /* SoapActionsWANEthernetLinkConfig1.m */; };
+		F62E26171C486CF30011E3EA /* SoapActionsWANIPConnection2.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584053139134E900A734E7 /* SoapActionsWANIPConnection2.m */; };
+		F62E26181C486CF30011E3EA /* SoapActionsWANIPv6FirewallControl1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584054139134E900A734E7 /* SoapActionsWANIPv6FirewallControl1.m */; };
+		F62E26191C486CF30011E3EA /* SoapActionsWANPOTSLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584055139134E900A734E7 /* SoapActionsWANPOTSLinkConfig1.m */; };
+		F62E261A1C486CF30011E3EA /* WAN2Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584056139134E900A734E7 /* WAN2Device.m */; };
+		F62E261B1C486CF30011E3EA /* WANConnection2Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15584057139134E900A734E7 /* WANConnection2Device.m */; };
+		F62E261C1C486CF30011E3EA /* BasicDeviceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DFB132C30490013D453 /* BasicDeviceParser.m */; };
+		F62E261D1C486CF30011E3EA /* BasicParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DFD132C30490013D453 /* BasicParser.m */; };
+		F62E261E1C486CF30011E3EA /* BasicParserAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44DFF132C30490013D453 /* BasicParserAsset.m */; };
+		F62E261F1C486CF30011E3EA /* BasicServiceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E01132C30490013D453 /* BasicServiceParser.m */; };
+		F62E26201C486CF30011E3EA /* BasicUPnPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E03132C30490013D453 /* BasicUPnPDevice.m */; };
+		F62E26211C486CF30011E3EA /* BasicUPnPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E05132C30490013D453 /* BasicUPnPService.m */; };
+		F62E26221C486CF30011E3EA /* BinaryLight1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E07132C30490013D453 /* BinaryLight1Device.m */; };
+		F62E26231C486CF30011E3EA /* CocoaTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E09132C30490013D453 /* CocoaTools.m */; };
+		F62E26241C486CF30011E3EA /* DeviceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E0B132C30490013D453 /* DeviceFactory.m */; };
+		F62E26251C486CF30011E3EA /* DimmableLigh1tDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E0C132C30490013D453 /* DimmableLigh1tDevice.m */; };
+		F62E26261C486CF30011E3EA /* LastChangeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E0F132C30490013D453 /* LastChangeParser.m */; };
+		F62E26271C486CF30011E3EA /* MediaPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E11132C30490013D453 /* MediaPlaylist.m */; };
+		F62E26281C486CF30011E3EA /* MediaRenderer1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E13132C30490013D453 /* MediaRenderer1Device.m */; };
+		F62E26291C486CF30011E3EA /* MediaServer1BasicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E15132C30490013D453 /* MediaServer1BasicObject.m */; };
+		F62E262A1C486CF30011E3EA /* MediaServer1ContainerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E17132C30490013D453 /* MediaServer1ContainerObject.m */; };
+		F62E262B1C486CF30011E3EA /* MediaServer1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E19132C30490013D453 /* MediaServer1Device.m */; };
+		F62E262C1C486CF30011E3EA /* MediaServer1ItemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E1B132C30490013D453 /* MediaServer1ItemObject.m */; };
+		F62E262D1C486CF30011E3EA /* MediaServerBasicObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E1D132C30490013D453 /* MediaServerBasicObjectParser.m */; };
+		F62E262E1C486CF30011E3EA /* SoapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E21132C30490013D453 /* SoapAction.m */; };
+		F62E262F1C486CF30011E3EA /* SoapActionsAVTransport1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E25132C30490013D453 /* SoapActionsAVTransport1.m */; };
+		F62E26301C486CF30011E3EA /* SoapActionsConnectionManager1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E27132C30490013D453 /* SoapActionsConnectionManager1.m */; };
+		F62E26311C486CF30011E3EA /* SoapActionsContentDirectory1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E29132C30490013D453 /* SoapActionsContentDirectory1.m */; };
+		F62E26321C486CF30011E3EA /* SoapActionsDimming1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E2B132C30490013D453 /* SoapActionsDimming1.m */; };
+		F62E26331C486CF30011E3EA /* SoapActionsRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E2D132C30490013D453 /* SoapActionsRendering.m */; };
+		F62E26341C486CF30011E3EA /* SoapActionsRenderingControl1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E2F132C30490013D453 /* SoapActionsRenderingControl1.m */; };
+		F62E26351C486CF30011E3EA /* SoapActionsSwitchPower1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E31132C30490013D453 /* SoapActionsSwitchPower1.m */; };
+		F62E26361C486CF30011E3EA /* SoapActionsWANIPConnection1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E33132C30490013D453 /* SoapActionsWANIPConnection1.m */; };
+		F62E26371C486CF30011E3EA /* SoapActionsWANPPPConnection1.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E35132C30490013D453 /* SoapActionsWANPPPConnection1.m */; };
+		F62E26381C486CF30011E3EA /* StateVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E37132C30490013D453 /* StateVariable.m */; };
+		F62E26391C486CF30011E3EA /* StateVariableList.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E39132C30490013D453 /* StateVariableList.m */; };
+		F62E263A1C486CF30011E3EA /* StateVariableRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E3B132C30490013D453 /* StateVariableRange.m */; };
+		F62E263B1C486CF30011E3EA /* UPnPDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E3E132C30490013D453 /* UPnPDB.m */; };
+		F62E263C1C486CF30011E3EA /* UPnPEventParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E40132C30490013D453 /* UPnPEventParser.m */; };
+		F62E263D1C486CF30011E3EA /* UPnPEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E42132C30490013D453 /* UPnPEvents.m */; };
+		F62E263E1C486CF30011E3EA /* UPnPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E44132C30490013D453 /* UPnPManager.m */; };
+		F62E263F1C486CF30011E3EA /* WANConnection1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E46132C30490013D453 /* WANConnection1Device.m */; };
+		F62E26401C486CF30011E3EA /* MediaServer1ItemRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 15004515141298E900ED553F /* MediaServer1ItemRes.m */; };
+		F62E26411C486D010011E3EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BAC4F7132C22BA00F5C41A /* Foundation.framework */; };
+		F62E26421C486D270011E3EA /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCA8D9E1B25A7D700946349 /* OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26431C486D270011E3EA /* MediaServer1ItemRes.h in Headers */ = {isa = PBXBuildFile; fileRef = 150045191412A00C00ED553F /* MediaServer1ItemRes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26441C486D270011E3EA /* BasicDeviceParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1556AB1C1393DC480059635A /* BasicDeviceParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26451C486D270011E3EA /* BasicServiceParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1556AB1D1393DC480059635A /* BasicServiceParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26471C486D270011E3EA /* SoapActionsDimming1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1556AB1F1393DC480059635A /* SoapActionsDimming1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26481C486D270011E3EA /* SoapActionsRendering.h in Headers */ = {isa = PBXBuildFile; fileRef = 1556AB201393DC480059635A /* SoapActionsRendering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26491C486D270011E3EA /* SoapActionsSwitchPower1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1556AB211393DC480059635A /* SoapActionsSwitchPower1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E264A1C486D270011E3EA /* StateVariableList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1556AB221393DC480059635A /* StateVariableList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E264B1C486D270011E3EA /* StateVariableRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 1556AB231393DC480059635A /* StateVariableRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E264C1C486D270011E3EA /* BinaryLight1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 154978C51393D863008A5BD4 /* BinaryLight1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E264D1C486D270011E3EA /* DimmableLight1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 154978C61393D863008A5BD4 /* DimmableLight1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E264E1C486D270011E3EA /* SoapActionsCallManagement1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15055E831391E2A4003DE49F /* SoapActionsCallManagement1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E264F1C486D270011E3EA /* SoapActionsConfigurationManagement1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15055E841391E2A4003DE49F /* SoapActionsConfigurationManagement1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26501C486D270011E3EA /* SoapActionsDeviceProtection1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15055E851391E2A4003DE49F /* SoapActionsDeviceProtection1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26511C486D270011E3EA /* SoapActionsInputConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15055E861391E2A4003DE49F /* SoapActionsInputConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26521C486D270011E3EA /* SoapActionsMediaManagement1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15055E871391E2A4003DE49F /* SoapActionsMediaManagement1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26531C486D270011E3EA /* SoapActionsMessaging1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15055E881391E2A4003DE49F /* SoapActionsMessaging1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26541C486D270011E3EA /* TelephonyClient1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 15055E891391E2A4003DE49F /* TelephonyClient1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26551C486D270011E3EA /* TelephonyServer1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 15055E8A1391E2A4003DE49F /* TelephonyServer1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26561C486D270011E3EA /* DigitalSecurityCamera1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 1558401E1391349900A734E7 /* DigitalSecurityCamera1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26571C486D270011E3EA /* InternetGateway2Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 1558401F1391349900A734E7 /* InternetGateway2Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26581C486D270011E3EA /* LAN1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840201391349900A734E7 /* LAN1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26591C486D270011E3EA /* WAN2Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 1558402F1391349900A734E7 /* WAN2Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E265A1C486D270011E3EA /* WANConnection1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840301391349900A734E7 /* WANConnection1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E265B1C486D270011E3EA /* WANConnection2Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840311391349900A734E7 /* WANConnection2Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E265C1C486D270011E3EA /* DeviceFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F2D132C45B50013D453 /* DeviceFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E265D1C486D270011E3EA /* MediaPlaylist.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F2E132C45B50013D453 /* MediaPlaylist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E265E1C486D270011E3EA /* MediaRenderer1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F2F132C45B50013D453 /* MediaRenderer1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E265F1C486D270011E3EA /* MediaServer1BasicObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F30132C45B60013D453 /* MediaServer1BasicObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26601C486D270011E3EA /* MediaServer1ContainerObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F31132C45B60013D453 /* MediaServer1ContainerObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26611C486D270011E3EA /* MediaServer1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F32132C45B60013D453 /* MediaServer1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26621C486D270011E3EA /* MediaServer1ItemObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F33132C45B60013D453 /* MediaServer1ItemObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26631C486D270011E3EA /* MediaServerBasicObjectParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 15583F2E138F448E00A734E7 /* MediaServerBasicObjectParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26641C486D270011E3EA /* UPnPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F3A132C45B60013D453 /* UPnPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26651C486D270011E3EA /* BasicHTTPServer_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EF8132C3AF80013D453 /* BasicHTTPServer_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26661C486D270011E3EA /* BasicParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EF9132C3AF80013D453 /* BasicParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26671C486D270011E3EA /* BasicParserAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EFA132C3AF80013D453 /* BasicParserAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26681C486D270011E3EA /* BasicUPnPDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EFB132C3AF80013D453 /* BasicUPnPDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26691C486D270011E3EA /* BasicUPnPService.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EFC132C3AF80013D453 /* BasicUPnPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E266A1C486D270011E3EA /* LastChangeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EFD132C3AF80013D453 /* LastChangeParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E266B1C486D270011E3EA /* SoapAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EFE132C3AF80013D453 /* SoapAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E266C1C486D270011E3EA /* SSDPDB_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EFF132C3AF80013D453 /* SSDPDB_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E266D1C486D270011E3EA /* StateVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F00132C3AF80013D453 /* StateVariable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E266E1C486D270011E3EA /* UPnPDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F01132C3AF80013D453 /* UPnPDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E266F1C486D270011E3EA /* UPnPEventParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F02132C3AF80013D453 /* UPnPEventParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26701C486D270011E3EA /* UPnPEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F03132C3AF80013D453 /* UPnPEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26711C486D270011E3EA /* SoapActionsAVTransport1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F36132C45B60013D453 /* SoapActionsAVTransport1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26721C486D270011E3EA /* SoapActionsConnectionManager1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F37132C45B60013D453 /* SoapActionsConnectionManager1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26731C486D270011E3EA /* SoapActionsContentDirectory1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F38132C45B60013D453 /* SoapActionsContentDirectory1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26741C486D270011E3EA /* SoapActionsRenderingControl1.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44F39132C45B60013D453 /* SoapActionsRenderingControl1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26751C486D270011E3EA /* SoapActionsDigitalSecurityCameraMotionImage1.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840211391349900A734E7 /* SoapActionsDigitalSecurityCameraMotionImage1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26761C486D270011E3EA /* SoapActionsDigitalSecurityCameraSettings1.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840221391349900A734E7 /* SoapActionsDigitalSecurityCameraSettings1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26771C486D270011E3EA /* SoapActionsDigitalSecurityCameraStillImage1.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840231391349900A734E7 /* SoapActionsDigitalSecurityCameraStillImage1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26781C486D270011E3EA /* SoapActionsLANHostConfigManagement1.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840241391349900A734E7 /* SoapActionsLANHostConfigManagement1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26791C486D270011E3EA /* SoapActionsLayer3Forwarding1.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840251391349900A734E7 /* SoapActionsLayer3Forwarding1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E267A1C486D270011E3EA /* SoapActionsWANCableLinkConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840261391349900A734E7 /* SoapActionsWANCableLinkConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E267B1C486D270011E3EA /* SoapActionsWANCommonInterfaceConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840271391349900A734E7 /* SoapActionsWANCommonInterfaceConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E267C1C486D270011E3EA /* SoapActionsWANDSLLinkConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840281391349900A734E7 /* SoapActionsWANDSLLinkConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E267D1C486D270011E3EA /* SoapActionsWANEthernetLinkConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = 155840291391349900A734E7 /* SoapActionsWANEthernetLinkConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E267E1C486D270011E3EA /* SoapActionsWANIPConnection1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1558402A1391349900A734E7 /* SoapActionsWANIPConnection1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E267F1C486D270011E3EA /* SoapActionsWANIPConnection2.h in Headers */ = {isa = PBXBuildFile; fileRef = 1558402B1391349900A734E7 /* SoapActionsWANIPConnection2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26801C486D280011E3EA /* SoapActionsWANIPv6FirewallControl1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1558402C1391349900A734E7 /* SoapActionsWANIPv6FirewallControl1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26811C486D280011E3EA /* SoapActionsWANPOTSLinkConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1558402D1391349900A734E7 /* SoapActionsWANPOTSLinkConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26821C486D280011E3EA /* SoapActionsWANPPPConnection1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1558402E1391349900A734E7 /* SoapActionsWANPPPConnection1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26831C486D280011E3EA /* iphoneport.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EA1132C332D0013D453 /* iphoneport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26841C486D280011E3EA /* osal.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DAE132C300A0013D453 /* osal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26851C486D280011E3EA /* tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DB0132C300A0013D453 /* tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26861C486D280011E3EA /* basichttpobserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44D91132C30000013D453 /* basichttpobserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26871C486D280011E3EA /* basichttpserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44D95132C30000013D453 /* basichttpserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26881C486D280011E3EA /* httpsession.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44D97132C30000013D453 /* httpsession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26891C486D280011E3EA /* SocketServer_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44D98132C30000013D453 /* SocketServer_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E268A1C486D280011E3EA /* socketserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44D9B132C30000013D453 /* socketserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E268B1C486D280011E3EA /* socketserverconnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44D9D132C30000013D453 /* socketserverconnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E268C1C486D280011E3EA /* socketServerobserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44D9E132C30000013D453 /* socketServerobserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E268D1C486D280011E3EA /* ssdp.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DB6132C302D0013D453 /* ssdp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E268E1C486D280011E3EA /* ssdpdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DBA132C302D0013D453 /* ssdpdb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E268F1C486D280011E3EA /* ssdpdbdevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DBC132C302D0013D453 /* ssdpdbdevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26901C486D280011E3EA /* ssdpdbobserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DBD132C302D0013D453 /* ssdpdbobserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26911C486D280011E3EA /* ssdphttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DBF132C302D0013D453 /* ssdphttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26921C486D280011E3EA /* ssdpmessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DC1132C302D0013D453 /* ssdpmessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26931C486D280011E3EA /* ssdpmsearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DC3132C302D0013D453 /* ssdpmsearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26941C486D280011E3EA /* ssdpnotify.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DC5132C302D0013D453 /* ssdpnotify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26951C486D280011E3EA /* ssdpnotifyalive.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DC7132C302D0013D453 /* ssdpnotifyalive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26961C486D280011E3EA /* ssdpnotifybye.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DC9132C302D0013D453 /* ssdpnotifybye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26971C486D280011E3EA /* ssdpnotifyupdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DCB132C302D0013D453 /* ssdpnotifyupdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26981C486D280011E3EA /* ssdpobserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DCC132C302D0013D453 /* ssdpobserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E26991C486D280011E3EA /* ssdpparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DCE132C302D0013D453 /* ssdpparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E269A1C486D280011E3EA /* ssdpsearchreq.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DD0132C302D0013D453 /* ssdpsearchreq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E269B1C486D280011E3EA /* ssdpsearchresp.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DD2132C302D0013D453 /* ssdpsearchresp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E269C1C486D280011E3EA /* ssdptools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DD4132C302D0013D453 /* ssdptools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62E269D1C486D280011E3EA /* upnp.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44DD6132C302D0013D453 /* upnp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -372,6 +552,9 @@
 		15C44F39132C45B60013D453 /* SoapActionsRenderingControl1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoapActionsRenderingControl1.h; path = ../../../../src/api/SoapActionsRenderingControl1.h; sourceTree = "<group>"; };
 		15C44F3A132C45B60013D453 /* UPnPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPnPManager.h; path = ../../../../src/api/UPnPManager.h; sourceTree = "<group>"; };
 		7DCA8D9E1B25A7D700946349 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderedDictionary.h; path = ../../../../src/api/OrderedDictionary.h; sourceTree = "<group>"; };
+		F62E25E21C486C9C0011E3EA /* df_upnpx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = df_upnpx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62E25E41C486C9C0011E3EA /* df_upnpx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = df_upnpx.h; sourceTree = "<group>"; };
+		F62E25E61C486C9C0011E3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,6 +566,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F62E25DE1C486C9C0011E3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62E26411C486D010011E3EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -390,6 +581,7 @@
 			isa = PBXGroup;
 			children = (
 				15BAC4F9132C22BA00F5C41A /* upnpx */,
+				F62E25E31C486C9C0011E3EA /* df_upnpx */,
 				15BAC4F6132C22BA00F5C41A /* Frameworks */,
 				15BAC4F5132C22BA00F5C41A /* Products */,
 			);
@@ -399,6 +591,7 @@
 			isa = PBXGroup;
 			children = (
 				15BAC4F4132C22BA00F5C41A /* libupnpx.a */,
+				F62E25E21C486C9C0011E3EA /* df_upnpx.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -654,6 +847,15 @@
 			name = upnp;
 			sourceTree = "<group>";
 		};
+		F62E25E31C486C9C0011E3EA /* df_upnpx */ = {
+			isa = PBXGroup;
+			children = (
+				F62E25E41C486C9C0011E3EA /* df_upnpx.h */,
+				F62E25E61C486C9C0011E3EA /* Info.plist */,
+			);
+			path = df_upnpx;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -756,6 +958,105 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F62E25DF1C486C9C0011E3EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62E25E51C486C9C0011E3EA /* df_upnpx.h in Headers */,
+				F62E26421C486D270011E3EA /* OrderedDictionary.h in Headers */,
+				F62E26431C486D270011E3EA /* MediaServer1ItemRes.h in Headers */,
+				F62E26441C486D270011E3EA /* BasicDeviceParser.h in Headers */,
+				F62E26451C486D270011E3EA /* BasicServiceParser.h in Headers */,
+				F62E26471C486D270011E3EA /* SoapActionsDimming1.h in Headers */,
+				F62E26481C486D270011E3EA /* SoapActionsRendering.h in Headers */,
+				F62E26491C486D270011E3EA /* SoapActionsSwitchPower1.h in Headers */,
+				F62E264A1C486D270011E3EA /* StateVariableList.h in Headers */,
+				F62E264B1C486D270011E3EA /* StateVariableRange.h in Headers */,
+				F62E264C1C486D270011E3EA /* BinaryLight1Device.h in Headers */,
+				F62E264D1C486D270011E3EA /* DimmableLight1Device.h in Headers */,
+				F62E264E1C486D270011E3EA /* SoapActionsCallManagement1.h in Headers */,
+				F62E264F1C486D270011E3EA /* SoapActionsConfigurationManagement1.h in Headers */,
+				F62E26501C486D270011E3EA /* SoapActionsDeviceProtection1.h in Headers */,
+				F62E26511C486D270011E3EA /* SoapActionsInputConfig1.h in Headers */,
+				F62E26521C486D270011E3EA /* SoapActionsMediaManagement1.h in Headers */,
+				F62E26531C486D270011E3EA /* SoapActionsMessaging1.h in Headers */,
+				F62E26541C486D270011E3EA /* TelephonyClient1Device.h in Headers */,
+				F62E26551C486D270011E3EA /* TelephonyServer1Device.h in Headers */,
+				F62E26561C486D270011E3EA /* DigitalSecurityCamera1Device.h in Headers */,
+				F62E26571C486D270011E3EA /* InternetGateway2Device.h in Headers */,
+				F62E26581C486D270011E3EA /* LAN1Device.h in Headers */,
+				F62E26591C486D270011E3EA /* WAN2Device.h in Headers */,
+				F62E265A1C486D270011E3EA /* WANConnection1Device.h in Headers */,
+				F62E265B1C486D270011E3EA /* WANConnection2Device.h in Headers */,
+				F62E265C1C486D270011E3EA /* DeviceFactory.h in Headers */,
+				F62E265D1C486D270011E3EA /* MediaPlaylist.h in Headers */,
+				F62E265E1C486D270011E3EA /* MediaRenderer1Device.h in Headers */,
+				F62E265F1C486D270011E3EA /* MediaServer1BasicObject.h in Headers */,
+				F62E26601C486D270011E3EA /* MediaServer1ContainerObject.h in Headers */,
+				F62E26611C486D270011E3EA /* MediaServer1Device.h in Headers */,
+				F62E26621C486D270011E3EA /* MediaServer1ItemObject.h in Headers */,
+				F62E26631C486D270011E3EA /* MediaServerBasicObjectParser.h in Headers */,
+				F62E26641C486D270011E3EA /* UPnPManager.h in Headers */,
+				F62E26651C486D270011E3EA /* BasicHTTPServer_ObjC.h in Headers */,
+				F62E26661C486D270011E3EA /* BasicParser.h in Headers */,
+				F62E26671C486D270011E3EA /* BasicParserAsset.h in Headers */,
+				F62E26681C486D270011E3EA /* BasicUPnPDevice.h in Headers */,
+				F62E26691C486D270011E3EA /* BasicUPnPService.h in Headers */,
+				F62E266A1C486D270011E3EA /* LastChangeParser.h in Headers */,
+				F62E266B1C486D270011E3EA /* SoapAction.h in Headers */,
+				F62E266C1C486D270011E3EA /* SSDPDB_ObjC.h in Headers */,
+				F62E266D1C486D270011E3EA /* StateVariable.h in Headers */,
+				F62E266E1C486D270011E3EA /* UPnPDB.h in Headers */,
+				F62E266F1C486D270011E3EA /* UPnPEventParser.h in Headers */,
+				F62E26701C486D270011E3EA /* UPnPEvents.h in Headers */,
+				F62E26711C486D270011E3EA /* SoapActionsAVTransport1.h in Headers */,
+				F62E26721C486D270011E3EA /* SoapActionsConnectionManager1.h in Headers */,
+				F62E26731C486D270011E3EA /* SoapActionsContentDirectory1.h in Headers */,
+				F62E26741C486D270011E3EA /* SoapActionsRenderingControl1.h in Headers */,
+				F62E26751C486D270011E3EA /* SoapActionsDigitalSecurityCameraMotionImage1.h in Headers */,
+				F62E26761C486D270011E3EA /* SoapActionsDigitalSecurityCameraSettings1.h in Headers */,
+				F62E26771C486D270011E3EA /* SoapActionsDigitalSecurityCameraStillImage1.h in Headers */,
+				F62E26781C486D270011E3EA /* SoapActionsLANHostConfigManagement1.h in Headers */,
+				F62E26791C486D270011E3EA /* SoapActionsLayer3Forwarding1.h in Headers */,
+				F62E267A1C486D270011E3EA /* SoapActionsWANCableLinkConfig1.h in Headers */,
+				F62E267B1C486D270011E3EA /* SoapActionsWANCommonInterfaceConfig1.h in Headers */,
+				F62E267C1C486D270011E3EA /* SoapActionsWANDSLLinkConfig1.h in Headers */,
+				F62E267D1C486D270011E3EA /* SoapActionsWANEthernetLinkConfig1.h in Headers */,
+				F62E267E1C486D270011E3EA /* SoapActionsWANIPConnection1.h in Headers */,
+				F62E267F1C486D270011E3EA /* SoapActionsWANIPConnection2.h in Headers */,
+				F62E26801C486D280011E3EA /* SoapActionsWANIPv6FirewallControl1.h in Headers */,
+				F62E26811C486D280011E3EA /* SoapActionsWANPOTSLinkConfig1.h in Headers */,
+				F62E26821C486D280011E3EA /* SoapActionsWANPPPConnection1.h in Headers */,
+				F62E26831C486D280011E3EA /* iphoneport.h in Headers */,
+				F62E26841C486D280011E3EA /* osal.h in Headers */,
+				F62E26851C486D280011E3EA /* tools.h in Headers */,
+				F62E26861C486D280011E3EA /* basichttpobserver.h in Headers */,
+				F62E26871C486D280011E3EA /* basichttpserver.h in Headers */,
+				F62E26881C486D280011E3EA /* httpsession.h in Headers */,
+				F62E26891C486D280011E3EA /* SocketServer_ObjC.h in Headers */,
+				F62E268A1C486D280011E3EA /* socketserver.h in Headers */,
+				F62E268B1C486D280011E3EA /* socketserverconnection.h in Headers */,
+				F62E268C1C486D280011E3EA /* socketServerobserver.h in Headers */,
+				F62E268D1C486D280011E3EA /* ssdp.h in Headers */,
+				F62E268E1C486D280011E3EA /* ssdpdb.h in Headers */,
+				F62E268F1C486D280011E3EA /* ssdpdbdevice.h in Headers */,
+				F62E26901C486D280011E3EA /* ssdpdbobserver.h in Headers */,
+				F62E26911C486D280011E3EA /* ssdphttp.h in Headers */,
+				F62E26921C486D280011E3EA /* ssdpmessage.h in Headers */,
+				F62E26931C486D280011E3EA /* ssdpmsearch.h in Headers */,
+				F62E26941C486D280011E3EA /* ssdpnotify.h in Headers */,
+				F62E26951C486D280011E3EA /* ssdpnotifyalive.h in Headers */,
+				F62E26961C486D280011E3EA /* ssdpnotifybye.h in Headers */,
+				F62E26971C486D280011E3EA /* ssdpnotifyupdate.h in Headers */,
+				F62E26981C486D280011E3EA /* ssdpobserver.h in Headers */,
+				F62E26991C486D280011E3EA /* ssdpparser.h in Headers */,
+				F62E269A1C486D280011E3EA /* ssdpsearchreq.h in Headers */,
+				F62E269B1C486D280011E3EA /* ssdpsearchresp.h in Headers */,
+				F62E269C1C486D280011E3EA /* ssdptools.h in Headers */,
+				F62E269D1C486D280011E3EA /* upnp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -776,6 +1077,24 @@
 			productReference = 15BAC4F4132C22BA00F5C41A /* libupnpx.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		F62E25E11C486C9C0011E3EA /* df_upnpx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62E25E91C486C9C0011E3EA /* Build configuration list for PBXNativeTarget "df_upnpx" */;
+			buildPhases = (
+				F62E25DD1C486C9C0011E3EA /* Sources */,
+				F62E25DF1C486C9C0011E3EA /* Headers */,
+				F62E25DE1C486C9C0011E3EA /* Frameworks */,
+				F62E25E01C486C9C0011E3EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = df_upnpx;
+			productName = df_upnpx;
+			productReference = F62E25E21C486C9C0011E3EA /* df_upnpx.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -784,6 +1103,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Bruno Keymolen";
+				TargetAttributes = {
+					F62E25E11C486C9C0011E3EA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
 			};
 			buildConfigurationList = 15BAC4EE132C22BA00F5C41A /* Build configuration list for PBXProject "upnpx" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -798,9 +1122,20 @@
 			projectRoot = "";
 			targets = (
 				15BAC4F3132C22BA00F5C41A /* upnpx */,
+				F62E25E11C486C9C0011E3EA /* df_upnpx */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F62E25E01C486C9C0011E3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15BAC4F0132C22BA00F5C41A /* Sources */ = {
@@ -897,6 +1232,100 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F62E25DD1C486C9C0011E3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62E26021C486CF30011E3EA /* OrderedDictionary.m in Sources */,
+				F62E26031C486CF30011E3EA /* SoapActionsCallManagement1.m in Sources */,
+				F62E26041C486CF30011E3EA /* SoapActionsConfigurationManagement1.m in Sources */,
+				F62E26051C486CF30011E3EA /* SoapActionsDeviceProtection1.m in Sources */,
+				F62E26061C486CF30011E3EA /* SoapActionsInputConfig1.m in Sources */,
+				F62E26071C486CF30011E3EA /* SoapActionsMediaManagement1.m in Sources */,
+				F62E26081C486CF30011E3EA /* SoapActionsMessaging1.m in Sources */,
+				F62E26091C486CF30011E3EA /* TelephonyClient1Device.m in Sources */,
+				F62E260A1C486CF30011E3EA /* TelephonyServer1Device.m in Sources */,
+				F62E260B1C486CF30011E3EA /* DigitalSecurityCamera1Device.m in Sources */,
+				F62E260C1C486CF30011E3EA /* InternetGateway2Device.m in Sources */,
+				F62E260D1C486CF30011E3EA /* LAN1Device.m in Sources */,
+				F62E260E1C486CF30011E3EA /* SoapActionsDigitalSecurityCameraMotionImage1.m in Sources */,
+				F62E260F1C486CF30011E3EA /* SoapActionsDigitalSecurityCameraSettings1.m in Sources */,
+				F62E26101C486CF30011E3EA /* SoapActionsDigitalSecurityCameraStillImage1.m in Sources */,
+				F62E26111C486CF30011E3EA /* SoapActionsLANHostConfigManagement1.m in Sources */,
+				F62E26121C486CF30011E3EA /* SoapActionsLayer3Forwarding1.m in Sources */,
+				F62E26131C486CF30011E3EA /* SoapActionsWANCableLinkConfig1.m in Sources */,
+				F62E26141C486CF30011E3EA /* SoapActionsWANCommonInterfaceConfig1.m in Sources */,
+				F62E26151C486CF30011E3EA /* SoapActionsWANDSLLinkConfig1.m in Sources */,
+				F62E26161C486CF30011E3EA /* SoapActionsWANEthernetLinkConfig1.m in Sources */,
+				F62E26171C486CF30011E3EA /* SoapActionsWANIPConnection2.m in Sources */,
+				F62E26181C486CF30011E3EA /* SoapActionsWANIPv6FirewallControl1.m in Sources */,
+				F62E26191C486CF30011E3EA /* SoapActionsWANPOTSLinkConfig1.m in Sources */,
+				F62E261A1C486CF30011E3EA /* WAN2Device.m in Sources */,
+				F62E261B1C486CF30011E3EA /* WANConnection2Device.m in Sources */,
+				F62E261C1C486CF30011E3EA /* BasicDeviceParser.m in Sources */,
+				F62E261D1C486CF30011E3EA /* BasicParser.m in Sources */,
+				F62E261E1C486CF30011E3EA /* BasicParserAsset.m in Sources */,
+				F62E261F1C486CF30011E3EA /* BasicServiceParser.m in Sources */,
+				F62E26201C486CF30011E3EA /* BasicUPnPDevice.m in Sources */,
+				F62E26211C486CF30011E3EA /* BasicUPnPService.m in Sources */,
+				F62E26221C486CF30011E3EA /* BinaryLight1Device.m in Sources */,
+				F62E26231C486CF30011E3EA /* CocoaTools.m in Sources */,
+				F62E26241C486CF30011E3EA /* DeviceFactory.m in Sources */,
+				F62E26251C486CF30011E3EA /* DimmableLigh1tDevice.m in Sources */,
+				F62E26261C486CF30011E3EA /* LastChangeParser.m in Sources */,
+				F62E26271C486CF30011E3EA /* MediaPlaylist.m in Sources */,
+				F62E26281C486CF30011E3EA /* MediaRenderer1Device.m in Sources */,
+				F62E26291C486CF30011E3EA /* MediaServer1BasicObject.m in Sources */,
+				F62E262A1C486CF30011E3EA /* MediaServer1ContainerObject.m in Sources */,
+				F62E262B1C486CF30011E3EA /* MediaServer1Device.m in Sources */,
+				F62E262C1C486CF30011E3EA /* MediaServer1ItemObject.m in Sources */,
+				F62E262D1C486CF30011E3EA /* MediaServerBasicObjectParser.m in Sources */,
+				F62E262E1C486CF30011E3EA /* SoapAction.m in Sources */,
+				F62E262F1C486CF30011E3EA /* SoapActionsAVTransport1.m in Sources */,
+				F62E26301C486CF30011E3EA /* SoapActionsConnectionManager1.m in Sources */,
+				F62E26311C486CF30011E3EA /* SoapActionsContentDirectory1.m in Sources */,
+				F62E26321C486CF30011E3EA /* SoapActionsDimming1.m in Sources */,
+				F62E26331C486CF30011E3EA /* SoapActionsRendering.m in Sources */,
+				F62E26341C486CF30011E3EA /* SoapActionsRenderingControl1.m in Sources */,
+				F62E26351C486CF30011E3EA /* SoapActionsSwitchPower1.m in Sources */,
+				F62E26361C486CF30011E3EA /* SoapActionsWANIPConnection1.m in Sources */,
+				F62E26371C486CF30011E3EA /* SoapActionsWANPPPConnection1.m in Sources */,
+				F62E26381C486CF30011E3EA /* StateVariable.m in Sources */,
+				F62E26391C486CF30011E3EA /* StateVariableList.m in Sources */,
+				F62E263A1C486CF30011E3EA /* StateVariableRange.m in Sources */,
+				F62E263B1C486CF30011E3EA /* UPnPDB.m in Sources */,
+				F62E263C1C486CF30011E3EA /* UPnPEventParser.m in Sources */,
+				F62E263D1C486CF30011E3EA /* UPnPEvents.m in Sources */,
+				F62E263E1C486CF30011E3EA /* UPnPManager.m in Sources */,
+				F62E263F1C486CF30011E3EA /* WANConnection1Device.m in Sources */,
+				F62E26401C486CF30011E3EA /* MediaServer1ItemRes.m in Sources */,
+				F62E25EA1C486CCF0011E3EA /* tools.cpp in Sources */,
+				F62E25EB1C486CCF0011E3EA /* BasicHTTPServer_ObjC.mm in Sources */,
+				F62E25EC1C486CCF0011E3EA /* basichttpserver.cpp in Sources */,
+				F62E25ED1C486CCF0011E3EA /* httpsession.cpp in Sources */,
+				F62E25EE1C486CCF0011E3EA /* SocketServer_ObjC.mm in Sources */,
+				F62E25EF1C486CCF0011E3EA /* socketserver.cpp in Sources */,
+				F62E25F01C486CCF0011E3EA /* socketserverconnection.cpp in Sources */,
+				F62E25F11C486CCF0011E3EA /* main.mm in Sources */,
+				F62E25F21C486CCF0011E3EA /* ssdp.cpp in Sources */,
+				F62E25F31C486CCF0011E3EA /* SSDPDB_ObjC.mm in Sources */,
+				F62E25F41C486CCF0011E3EA /* ssdpdb.cpp in Sources */,
+				F62E25F51C486CCF0011E3EA /* ssdpdbdevice.cpp in Sources */,
+				F62E25F61C486CCF0011E3EA /* ssdphttp.cpp in Sources */,
+				F62E25F71C486CCF0011E3EA /* ssdpmessage.cpp in Sources */,
+				F62E25F81C486CCF0011E3EA /* ssdpmsearch.cpp in Sources */,
+				F62E25F91C486CD00011E3EA /* ssdpnotify.cpp in Sources */,
+				F62E25FA1C486CD00011E3EA /* ssdpnotifyalive.cpp in Sources */,
+				F62E25FB1C486CD00011E3EA /* ssdpnotifybye.cpp in Sources */,
+				F62E25FC1C486CD00011E3EA /* ssdpnotifyupdate.cpp in Sources */,
+				F62E25FD1C486CD00011E3EA /* ssdpparser.cpp in Sources */,
+				F62E25FE1C486CD00011E3EA /* ssdpsearchreq.cpp in Sources */,
+				F62E25FF1C486CD00011E3EA /* ssdpsearchresp.cpp in Sources */,
+				F62E26001C486CD00011E3EA /* ssdptools.cpp in Sources */,
+				F62E26011C486CD00011E3EA /* upnp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -962,6 +1391,118 @@
 			};
 			name = Release;
 		};
+		F62E25E71C486C9C0011E3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "upnpx/upnpx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = UPNPX_IOS;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = df_upnpx/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myDevices.df-upnpx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../../../src/api ../../../src/port/ios ../../../src/common";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F62E25E81C486C9C0011E3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "upnpx/upnpx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = UPNPX_IOS;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = df_upnpx/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myDevices.df-upnpx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../../../src/api ../../../src/port/ios ../../../src/common";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -982,6 +1523,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F62E25E91C486C9C0011E3EA /* Build configuration list for PBXNativeTarget "df_upnpx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62E25E71C486C9C0011E3EA /* Debug */,
+				F62E25E81C486C9C0011E3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
