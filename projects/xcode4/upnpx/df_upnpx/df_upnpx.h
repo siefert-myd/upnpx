@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char df_upnpxVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <df_upnpx/PublicHeader.h>
 
-
+#import "UPnPDB.h"
+#import "UPnPManager.h"
